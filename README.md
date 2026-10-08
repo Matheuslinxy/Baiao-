@@ -18,7 +18,7 @@ Compilar o arquivo TypeScript. Executar o arquivo gerado.
 npm run start:watch
 ```
 
-Executar as migrations para criar as tabelas no banco de dados.
+Executar as migrations para criar as tabelas no banco de dados
 ```
 npx typeorm migration:run -d dist/data-source.js
 ```
